@@ -28,6 +28,7 @@ params:
   search: true
   showThemeSwitcher: true
   moveFooterToHeader: false
+  logoAlt: "An alternative text description of the logo"
   customCss:
     - css/custom_01.css
     - css/custom_02.css
