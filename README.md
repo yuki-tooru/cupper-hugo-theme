@@ -74,6 +74,11 @@ See the [full list of supported shortcodes](https://cupper-hugo-theme.netlify.co
 
 Syntax highlighting is provided by [Prism](https://prismjs.com/). See this [markdown code fences example](https://cupper-hugo-theme.netlify.com/cupper-shortcodes/#syntax-highlighting).
 
+By default, only a few languages are supported. If you want to add more, follow these steps:
+
+1. Select the languages you want from <https://prismjs.com/download.html>
+1. Download the JS file, then copy it to `static/js/prism.js`
+1. Download the CSS file, then copy it to `static/css/prism.css`
 
 ## Disable toc for a blog post
 
