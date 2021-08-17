@@ -19,6 +19,7 @@ An accessibility-friendly Hugo theme, ported from the [original Cupper](https://
 - [Disable toc for a blog post](#disable-toc-for-a-blog-post)
 - [Localization](#localization)
 - [Custom CSS and JS](#custom-css-and-js)
+- [Default to Dark Theme](#default-to-dark-theme)
 - [Getting help](#getting-help)
 - [Credits](#credits)
 
@@ -104,6 +105,22 @@ You can provide an optional list of custom CSS files, which must be placed insid
 You can provide an optional list of custom JS files, which must be placed inside the `static` dir. These will load after the theme JS loads. So, `static/js/custom_01.js` translates to `js/custom_01.js`.
 
 See the [example site config file](https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/exampleSite/config.yaml) for sample usage.
+
+## Default to Dark Theme
+
+In the site config file set the param `defaultDarkTheme` to true.
+
+E.g. for `config.yaml`
+```yaml
+params:
+  defaultDarkTheme: true
+```
+
+Note that the default of light or dark theme only applies to the first visit to a site using this theme. Once the site is visited the choice of dark or light theme is stored in 'local storage' in the browser.
+
+To reset to a 'first visit' scenario (e.g. for testing), one needs to either browse in private mode (aka Incognito/InPrivate/etc) or delete 'local storage' for this site. The easiest way to do that, but which affects other sites as well, is to use the 'Clear History' feature of the browser.
+
+Check your browser's help or documentation for details.
 
 ## Getting help
 

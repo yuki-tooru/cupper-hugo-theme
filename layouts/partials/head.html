@@ -31,6 +31,24 @@
     }
   </style>
 
+  <style id="darkTheme">
+    .intro-and-nav,
+    .main-and-footer {
+      filter: invert(100%);
+    }
+
+    * {
+      background-color: inherit
+    }
+
+    img:not([src*=".svg"]),
+    .colors,
+    iframe,
+    .demo-container {
+      filter: invert(100%);
+    }
+  </style>
+
   <link rel="stylesheet" href="{{ "css/prism.css" | relURL }}" media="none" onload="this.media='all';">
 
   {{ $templateStyles := resources.Get "css/template-styles.css" }}

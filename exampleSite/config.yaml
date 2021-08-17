@@ -27,6 +27,7 @@ params:
   hideHeaderLinks: false
   search: true
   showThemeSwitcher: true
+  defaultDarkTheme: false
   moveFooterToHeader: false
   logoAlt: "An alternative text description of the logo"
   customCss:
