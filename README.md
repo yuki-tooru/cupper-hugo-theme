@@ -20,6 +20,7 @@ An accessibility-friendly Hugo theme, ported from the [original Cupper](https://
 - [Localization](#localization)
 - [Custom CSS and JS](#custom-css-and-js)
 - [Default to Dark Theme](#default-to-dark-theme)
+- [Non-Git Repo](#non-git-repo)
 - [Getting help](#getting-help)
 - [Credits](#credits)
 
@@ -121,6 +122,10 @@ Note that the default of light or dark theme only applies to the first visit to 
 To reset to a 'first visit' scenario (e.g. for testing), one needs to either browse in private mode (aka Incognito/InPrivate/etc) or delete 'local storage' for this site. The easiest way to do that, but which affects other sites as well, is to use the 'Clear History' feature of the browser.
 
 Check your browser's help or documentation for details.
+
+## Non-Git Repo
+
+If your site is **not** a git repo, then set `enableGitInfo` to `false` in your config file.
 
 ## Getting help
 
