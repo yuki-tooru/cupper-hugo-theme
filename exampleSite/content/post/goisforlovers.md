@@ -2,6 +2,7 @@
 date: "2014-04-02"
 tags: ["go", "templates", "hugo"]
 title: "(Hu)go Template Primer"
+toc: true
 ---
 
 Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for
@@ -235,7 +236,7 @@ Notice how once we have entered the loop the value of {{ . }} has changed. We
 have defined a variable outside of the loop so we have access to it from within
 the loop.
 
-# Hugo Parameters
+## Hugo Parameters
 
 Hugo provides the option of passing values to the template language
 through the site configuration (for sitewide values), or through the meta

@@ -10,6 +10,7 @@ tags:
 - git
 - templates
 title: Migrate to Hugo from Jekyll
+toc: true
 ---
 
 ## Move static content to `static`

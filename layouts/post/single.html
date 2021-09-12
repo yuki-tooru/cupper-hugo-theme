@@ -35,10 +35,8 @@
         </ul>
       </div>
     {{ end }}
-    
-    {{ if ne .Params.toc false }}
-      {{ partial "toc" . }}
-    {{ end }}
+
+    {{ partial "toc.html" . }}
 
     {{ .Content }}
   </main>
