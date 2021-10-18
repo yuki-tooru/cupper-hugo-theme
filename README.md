@@ -6,13 +6,15 @@ An accessibility-friendly Hugo theme, ported from the [original Cupper](https://
 
 ## Table of contents
 
+<!-- toc -->
+
 - [Demo](#demo)
 - [Minimum Hugo version](#minimum-hugo-version)
 - [Installation](#installation)
 - [Updating](#updating)
 - [Run example site](#run-example-site)
 - [Configuration](#configuration)
-- [Logo](#logo)
+- [Nav Title or Logo](#nav-title-or-logo)
 - [Favicons](#favicons)
 - [Shortcodes](#shortcodes)
 - [Syntax highlighting](#syntax-highlighting)
@@ -23,6 +25,8 @@ An accessibility-friendly Hugo theme, ported from the [original Cupper](https://
 - [Non-Git Repo](#non-git-repo)
 - [Getting help](#getting-help)
 - [Credits](#credits)
+
+<!-- tocstop -->
 
 ## Demo
 
@@ -58,15 +62,16 @@ hugo server --themesDir ../..
 
 ## Configuration
 
-Copy `config.yaml` from the [`exampleSite`](https://github.com/zwbetz-gh/cupper-hugo-theme/tree/master/exampleSite), then edit as desired. 
+Copy `config.yaml` from the [`exampleSite`](https://github.com/zwbetz-gh/cupper-hugo-theme/tree/master/exampleSite), then edit as desired.
 
-## Logo
+## Nav Title or Logo
 
-Place your SVG logo at `static/images/logo.svg`. If you don't provide a logo, then the default theme logo will be used. 
+- The `navTitleText` param will be checked in your config file. **If** this param exists, the text value will be used as the nav title
+- **Otherwise**, a logo will be used as the nav title. Place your **SVG** logo at `static/images/logo.svg`. If you don't provide a logo, then the default theme logo will be used
 
 ## Favicons
 
-Upload your image to [RealFaviconGenerator](https://realfavicongenerator.net/) then copy-paste the generated favicon files under `static`. 
+Upload your image to [RealFaviconGenerator](https://realfavicongenerator.net/) then copy-paste the generated favicon files under `static`.
 
 ## Shortcodes
 
@@ -133,4 +138,4 @@ If you run into an issue that isn't answered by this documentation or the [`exam
 
 ## Credits
 
-Thank you to [Heydon Pickering](http://www.heydonworks.com) and [The Paciello Group](https://www.paciellogroup.com/) for creating the original Cupper project. 
+Thank you to [Heydon Pickering](http://www.heydonworks.com) and [The Paciello Group](https://www.paciellogroup.com/) for creating the original Cupper project.
