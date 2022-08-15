@@ -5,7 +5,7 @@
     {{ $quote | markdownify }}
     {{ with (.Get "author") }}
       <br>
-      <span class="author">&mdash; {{ . }}</span>
+      <span class="author">&mdash; {{ . | markdownify }}</span>
     {{ end }}
   </p>
 </blockquote>
