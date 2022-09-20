@@ -917,9 +917,6 @@ h1 svg {
     .main-and-footer {
         margin: 0;
     }
-    main {
-      min-height: auto;
-    }
     #patterns-list {
       margin-top: 0.5rem;
       border: 1px solid;
