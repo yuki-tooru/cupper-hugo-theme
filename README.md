@@ -30,7 +30,7 @@ An accessibility-friendly Hugo theme, ported from the [original Cupper](https://
 
 ## Demo
 
-https://cupper-hugo-theme.netlify.com/
+https://cupper-hugo-theme.netlify.app/
 
 ## Minimum Hugo version
 
